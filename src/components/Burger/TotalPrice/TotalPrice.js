@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 const TotalPrice = props => {
     return (
         <div>
-            <h1>{props.total}</h1>
+            <h1>Current Price: <b>${props.total.toFixed(2)}</b></h1>
         </div>
     );
 };

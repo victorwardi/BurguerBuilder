@@ -1,0 +1,8 @@
+.OrderSummary ul{
+    list-style: none;
+    text-align: left;
+}
+
+.OrderSummary li{
+    padding: 5px;
+}
